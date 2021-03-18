@@ -1,0 +1,22 @@
+uuid: 9b3d8a9a-b3d4-486f-b2b3-740048c0551f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - provcomlib
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: provcomlib_messages
+theme: provcomlib
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a54aa535-45ef-4456-8d7f-5704fde03167
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - provcomlib
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: provcomlib_content
+theme: provcomlib
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

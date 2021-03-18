@@ -1,0 +1,22 @@
+uuid: 171e4b10-e0a6-4a1f-b66f-a8ddfd7476de
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - provcomlib
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: provcomlib_help
+theme: provcomlib
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
